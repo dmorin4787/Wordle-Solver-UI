@@ -1,38 +1,107 @@
-.App {
+html {
+  font-size: 14px;
+
+}
+
+body {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-family:'Anton', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+.title {
+  font-size: 5rem;
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instructions  {
+  font-size: 2rem;
 }
+
+.Guesses {
+  display: flex;
+  font-size: 4rem;
+  
+  justify-content: center;
+}
+
+.Guesses-letter {
+  width: 5.25rem;
+  height: 5.25rem;
+  border: 0.1rem solid #ccc;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.firstGuessInput {
+  text-align: center;
+  font-size: 2rem;
+  font-family:'Anton', sans-serif;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: green;
+
+}
+
+.inputText {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color:grey;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.inputButton {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: grey;
+  color: gold;
+  border-radius: 0.5rem;
+  border-color: gold;
+  border-style: solid;
+}
+
+.submitButton {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: grey;
+  color: gold;
+  border-radius: 0.5rem;
+  border-color: gold;
+  border-style: solid;
+  margin-right: 1rem;
+}
+
+.resetButton {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: grey;
+  color: gold;
+  border-radius: 0.5rem;
+  border-color: gold;
+  border-style: solid;
+}
+
+.winText {
+  font-size: 3rem;
+  color: green;
+}
+
+.loseText {
+  font-size: 3rem;
+  color: red;
+}
+
+
