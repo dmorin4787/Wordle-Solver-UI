@@ -48,7 +48,7 @@ function App() {
     Read the first guess from the user
   */
   function getFirstGuess() {
-    const firstGuess = document.getElementById("firstGuess").value
+    const firstGuess = document.getElementById("firstGuess").value.replace(/\s/g, '')
 
     if (firstGuess.length === 5) {
       setCurrGuess(prevCurrGuess => 
